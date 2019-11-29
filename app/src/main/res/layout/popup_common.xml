@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        app:cardCornerRadius="0dp"
+                                        app:cardBackgroundColor="@color/Colorbg"
+                                        android:layout_marginRight="40dp"
+                                        android:layout_marginLeft="40dp">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+            <ImageView android:layout_width="50dp"
+                       android:layout_height="50dp"
+                       android:layout_gravity="center"
+                       android:layout_marginTop="10dp"
+                       android:id="@+id/mImg"
+                       android:src="@drawable/ic_info_outline_black_24dp"
+                       android:visibility="gone"
+
+            />
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:gravity="center"
+                      android:textSize="16dp"
+                      android:textStyle="bold"
+                      android:id="@+id/mtitle_pop"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:textColor="@color/Colortext"
+                      android:layout_marginTop="15dp"
+                      android:text="Logout"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:gravity="center"
+                      android:textSize="14dp"
+                      android:id="@+id/txtmsg"
+                      android:layout_marginLeft="20dp"
+                      android:layout_marginRight="20dp"
+                      android:textColor="@color/Colortext"
+                      android:layout_marginTop="10dp"
+                      android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"/>
+            <View android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:layout_marginTop="10dp"
+                android:visibility="visible"
+                  android:background="@color/colorGrey"/>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="45dp"
+                          android:background="@color/Colorbg"
+                          android:orientation="horizontal">
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:id="@+id/ok"
+                          android:textColor="@color/Colortext"
+                          android:gravity="center"
+                          android:text="OK"/>
+                <View android:layout_width="1dp"
+                      android:layout_height="match_parent"
+                      android:background="@color/colorGrey"/>
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:id="@+id/cancel"
+                          android:textColor="@color/Colortext"
+                          android:text="Cancel"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

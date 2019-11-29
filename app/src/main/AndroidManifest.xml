@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.application.bdamx">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true">
+       <!-- <activity android:name=".sidemenu.SocketActivity"></activity>-->
+        <activity android:name=".cms.ContactusActivity" />
+        <activity android:name=".cms.NewsDetailActivity" />
+        <activity android:name=".paperkey.KeysubmitActivity" />
+        <activity android:name=".paperkey.Paperkeypattern" />
+        <activity android:name=".login.LoginActivity" />
+        <activity android:name=".login.RegisterActivity" />
+        <activity android:name=".sidemenu.HistoryActivity" />
+        <activity android:name=".sidemenu.ProfileActivity" />
+        <activity android:name=".sidemenu.TradeCommonActivity" />
+        <activity android:name=".cms.TermsConditionActivity" />
+        <activity android:name=".sidemenu.WithdrawActivity" />
+        <activity android:name=".sidemenu.DepositActivity" />
+        <activity android:name=".sidemenu.TradeActivity" />
+        <activity android:name=".sidemenu.DataMarketActivity" />
+        <activity android:name=".cms.NewsActivity" />
+        <activity android:name=".notification.NotificationActivity" />
+        <activity
+            android:name=".login.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity android:name=".login.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Introslider.IntrosliderActivity" />
+        <activity android:name=".sidemenu.WalletActivity" />
+        <activity android:name=".sidemenu.QrCodeScannerActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

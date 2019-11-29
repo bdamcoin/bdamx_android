@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".login.RegisterActivity">
+
+    <include
+        layout="@layout/toolbar_header_common"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/splash_logo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Colortext"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="BDAMX"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Colortext"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Email"/>
+
+
+                    <EditText android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textSize="14dp"
+                        android:singleLine="true"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edit_text"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="5dp"
+                        android:textColorHint="@color/ColorHint"
+                        android:textColor="@color/Colortext"
+                        android:inputType="text"
+                        android:id="@+id/mEmailEdittext"
+                        android:imeOptions="actionNext"
+                        android:hint="Email"/>
+
+
+                <TextView
+                    android:id="@+id/mSendotpbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Colortext"
+                    android:textSize="16dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/sendotp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Colortext"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="OTP"/>
+
+                <EditText android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="14dp"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:background="@drawable/edit_text"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="@color/ColorHint"
+                    android:textColor="@color/Colortext"
+                    android:inputType="text"
+                    android:id="@+id/mOtpEdittext"
+                    android:imeOptions="actionDone"
+                    android:hint="OTP"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center">
+
+                    <CheckBox
+                        android:id="@+id/mTermscheck"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/Colortext"
+                        android:text="I have read the"
+                        android:textColor="@color/Colortext"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/term_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:gravity="start"
+                        android:text="@string/terms"
+                        android:textColor="@color/Colortext"
+                        android:textSize="13dp" />
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/mSubmitbtn"
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/rounded_submit_button"
+                    android:gravity="center"
+                    android:text="Submit"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/Colortext"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="I have already account?"
+                        android:textColor="@color/Colortext" />
+
+                    <TextView
+                        android:id="@+id/mLogin_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text=" Log in"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

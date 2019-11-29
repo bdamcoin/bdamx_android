@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true">
+   <ImageView
+       android:id="@+id/image1"
+       android:layout_width="280dp"
+       android:layout_height="250dp"
+       android:layout_marginTop="40dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"
+       android:background="@drawable/introimg1"
+       android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/intro1_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image1"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:backgroundTint="@color/colorWhite"
+        android:layout_marginTop="60dp"
+        android:text="Crypto Currency"/>
+
+    <TextView
+        android:id="@+id/intro1_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/intro1_title"
+        android:textSize="13dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:lineSpacingMultiplier="1.2"
+        android:textColor="@color/colorWhite"
+        android:text="Manage any assets, cryptocurrency, fiat, fund, stock at any time, anywhere!"/>
+</RelativeLayout>
+</RelativeLayout>

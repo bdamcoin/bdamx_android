@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">BDAMX</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="internet_connection">Please check your internet connection and try again</string>
+    <string name="no_internet">No Internet Connection</string>
+
+    <string name="went_wrong">Something went wrong in server</string>
+    <string name="news">News</string>
+    <string name="notification">Notification</string>
+    <string name="datamarket">Data Market</string>
+    <string name="wallet">Wallet</string>
+    <string name="Deposit">Deposit</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="sendotp"><u>Send OTP</u></string>
+    <string name="paper_key">Mnemonic Key</string>
+    <string name="write_down_paper_key">Write down paper key</string>
+    <string name="word">Word</string>
+    <string name="to_make_sure_everything_was_written_down_correctly_please_enter_the_following_words_from_your_paper_key">
+        To make sure everything was written down correctly, please enter the following words from your paper key.
+    </string>
+    <string name="write_down_each_word_in_order_and_store_it_in_a_safe_place">Write down each word in order and store it
+        in a safe place
+    </string>
+    <string name="your_paper_key_is_only_wat_to_restore_your_tb_wallet_if_your_phone_is_lost_stolen_or_upgraded">Your
+        paper key is only wat to restore your TB Wallet if your phone is lost, stolen or upgraded
+    </string>
+    <string name="terms">
+        <u>Terms and Conditions</u>
+    </string>
+</resources>

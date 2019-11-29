@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".cms.ContactusActivity">
+    <include
+
+        layout="@layout/toolbar_header_common" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/contactus_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Get in Touch With us"/>
+            <TextView
+                android:id="@+id/contactus_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text=""/>
+
+            <EditText
+                android:id="@+id/mNameEditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="12dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/Colortext"
+                android:textColorHint="@color/ColorHint"
+                android:background="@drawable/edit_text"
+                android:layout_marginTop="10dp"
+                android:hint="Full Name"/>
+
+            <EditText
+                android:id="@+id/mEmailEditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="12dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/Colortext"
+                android:textColorHint="@color/ColorHint"
+                android:background="@drawable/edit_text"
+                android:layout_marginTop="10dp"
+                android:hint="Email Address"/>
+
+
+            <EditText
+                android:id="@+id/mSubjectEditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="12dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/Colortext"
+                android:textColorHint="@color/ColorHint"
+                android:background="@drawable/edit_text"
+                android:layout_marginTop="10dp"
+                android:hint="Subject"/>
+
+            <EditText
+                android:id="@+id/mMsgEditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="12dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/Colortext"
+                android:textColorHint="@color/ColorHint"
+                android:background="@drawable/edit_text"
+                android:layout_marginTop="10dp"
+                android:hint="Message"/>
+
+            <Button
+                android:id="@+id/mSubmitBtn"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:textSize="12dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_submit_button"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="15dp"
+                android:text="Submit"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="10dp"
+                android:textSize="16dp"
+                android:textColor="@color/colorWhite"
+                android:text="Contact Address:"/>
+            <TextView
+                android:id="@+id/nCompanyname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textSize="14dp"
+                android:layout_marginTop="5dp"
+                android:text="CC Exchange Prvt Ltd"/>
+            <TextView
+                android:id="@+id/address_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textSize="12dp"
+                android:visibility="gone"
+                android:text="Block Name, street road name"/>
+
+            <TextView
+                android:id="@+id/city_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textSize="12dp"
+                android:visibility="gone"
+                android:text="city, country"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/phone_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:textColor="@color/colorWhite"
+                    android:text="Phone: 943789575858 |"/>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:paddingLeft="2dp"
+                    android:visibility="gone"
+                    android:text="Email: admin@CCExchange.com"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/email_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textSize="14dp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginBottom="20dp"
+                android:visibility="visible"
+                android:text=""/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="@color/Colorbg"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mPair"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="14dp"
+                    android:textColor="@color/colorWhite"
+                    android:text="ABBS/ETH"/>
+
+                <TextView
+                    android:id="@+id/mVol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Colortext"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textSize="10dp"
+                    android:text="2067.90"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:textColor="@color/Colortext"
+                    android:text="Total"/>
+
+                <TextView
+                    android:id="@+id/mTotal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Colortext"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12dp"
+                    android:text="2067.90"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Colortext"
+                    android:gravity="center"
+                    android:textSize="14dp"
+                    android:text="0.00676"/>
+
+                <TextView
+                    android:id="@+id/mUsdprice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Colortext"
+                    android:gravity="center"
+                    android:textSize="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="2067.90 USD"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mChange"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:textColor="@color/colorWhite"
+                android:layout_gravity="center"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/rounded_corner_green"
+                android:text="+12.9"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

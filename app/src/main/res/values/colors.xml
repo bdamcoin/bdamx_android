@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryWhite">#ffffff</color>
+    <color name="colorPrimary">#383848</color>
+    <color name="colorPrimaryDark">#383848</color>
+    <color name="colorAccent">#54545E</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrey">#d3d3d3</color>
+    <color name="colorGreyDark">#808080</color>
+    <color name="colorGreen">#41C352</color>
+    <color name="cancelRed">#DD5236</color>
+    <color name="Colorbg">#676779</color>
+    <color name="Colortext">#EDEDEF</color>
+    <color name="ColorDarkgreen">#72FA5B</color>
+    <color name="yellowBg">#F19C14</color>
+    <color name="ColorHint">#A2A1A7</color>
+    <color name="Color1">#1C2330</color>
+    <color name="Coloreditbox">#50676779</color>
+    <color name="Colorlistgreen">#3041C352</color>
+    <color name="Colorlistred">#50DD5236</color>
+    <color name="Colorbgblack">#20676779</color>
+    <color name="Colorblue">#0B1433</color>
+
+    <array name="array_dot_active">
+        <item>@color/colorWhite</item>
+        <item>@color/colorWhite</item>
+        <item>@color/colorWhite</item>
+        <item>@color/colorWhite</item>
+        <item>@color/colorWhite</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/colorGreyDark</item>
+        <item>@color/colorGreyDark</item>
+        <item>@color/colorGreyDark</item>
+        <item>@color/colorGreyDark</item>
+        <item>@color/colorGreyDark</item>
+    </array>
+</resources>
